@@ -1,9 +1,16 @@
 {
   "name": "telegram-bot-sample",
   "version": "0.0.1",
+  "main": "sabbion.js",
+  "scripts": {
+    "start": "node sabbion.js"
+  },
   "dependencies": {
     "unirest": "^0.4.2",
     "node-telegram-bot ": "latest",
     "telegram-api": "latest"
-  }
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
 }
